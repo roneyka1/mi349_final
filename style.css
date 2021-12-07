@@ -1,0 +1,118 @@
+html{
+    background: rgb(37, 37, 37);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:20px;
+    padding:20px;
+    color: darkblue;
+    border-top:10px solid darkblue;
+    background-color: rgb(255, 212, 219);
+}
+
+h1{
+    font-size: 4em;
+    margin: 0;
+
+}
+
+p{
+    line-height: 1.6em;
+    color: darkblue;
+
+
+}
+
+#blog{
+    border-top: 1px dotted darkblue;
+
+}
+
+.blog-post{
+    border-bottom:1px dotted darkblue;
+
+}
+
+#para3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2{
+    color: black;
+}
+
+
+label{
+    font-style: italic;
+    color: black;
+    align-items: center;
+}
+
+table{
+    color: black;
+    align-content: center;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+td{
+    text-align: center;
+}
+
+section{
+    display: flex;
+}
+
+article{
+    padding:10px;
+    margin:10px;
+}
+
+.img-container{
+    float: left;
+    text-align: center;
+    font-size: smaller;
+    padding: .05em;
+    margin: .05em;
+    
+}
+
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+
+
+@media (max-width: 400px) {
+    main {
+        margin: 0 auto;
+    }
+    img.img-container {
+        width: 100%;
+
+    }
+}
+
+
+@media (min-width: 400px ) {
+    .para {
+        text-align: center;
+        
+    }
+
+    h1, h2 {
+        text-align: center;
+    }
+
+    ul {
+        text-align: center;
+        
+    }
+
+    .blog-post {
+        margin: 5;
+    }
+}
