@@ -4,6 +4,7 @@ html{
     background:rgb(90, 85, 85);
 }
 
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin:40px;
@@ -82,6 +83,7 @@ p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+
 h2{
     color: rgb(243, 161, 67);
     font-size: 2em;
@@ -100,6 +102,8 @@ label{
 section{
     display: flex;
 }
+
+
 
 article{
     padding:5px;
@@ -122,9 +126,11 @@ header img{
    
 }
 
+
 time{
     align-content: center;
 }
+
 
 .sticky{
     position: -webkit-sticky;
@@ -136,18 +142,16 @@ time{
 
 
 
-@media (min-width: 400px) {
-    main {
-        margin: 0 auto;
-    }
-    img.img-container {
-        width: 100%;
-
+@media (max-width: 900px ) {
+    section{
+        display:block;
     }
 }
 
 
-@media (min-width: 400px ) {
+
+
+/*
     .para {
         text-align: right;
         
@@ -165,5 +169,26 @@ time{
     .blog-post {
         margin: 5;
     }
+
+    section{
+        display: flex;
+    }
+
 }
+
+
+@media (min-width: 100px) {
+    main {
+        margin: 0 auto;
+    }
+    img.img-container {
+        width: 100%;
+
+    }
+
+ 
+
+}*/
+
+
 
