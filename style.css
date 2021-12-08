@@ -28,7 +28,7 @@ h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(243, 161, 67);
     margin-top: .7em;
-    margin-left: 1.8em;
+    margin-left: 2.5em;
     /*border: 5px solid black;*/
     background: rgb(112, 108, 108);
     display: inline-block;
@@ -48,10 +48,15 @@ h1{
     background-color:  rgb(243, 161, 67); 
 }
 
-.story{
-    font-style: bold;
-    font-size: 1.3em;
+figcaption{
     text-align: center;
+    font-weight: bold;
+
+}
+
+.story{
+    font-weight: bold;
+    font-size: 1.3em;
     margin: .1em;
 }
 
@@ -103,18 +108,22 @@ article{
 
 header img{
     display: inline-block;
-    margin-top: 2.1em;
+    margin-top: 1.9em;
     margin-left: .9em;
     padding: .2em;
 }
 
 
 .img-container2{
-   /* padding: 1em;
+    padding: 1em;
     
-    margin: 1em;*/
+    margin: 1em;
     float: left;
    
+}
+
+time{
+    align-content: center;
 }
 
 .sticky{
