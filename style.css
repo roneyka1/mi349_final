@@ -1,36 +1,75 @@
 html{
-    background: rgb(37, 37, 37);
+    margin: 0%;
+    padding: 0px;
+    background:rgb(90, 85, 85);
 }
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    margin:20px;
-    padding:20px;
-    color: darkblue;
-    border-top:10px solid darkblue;
-    background-color: rgb(255, 212, 219);
+    margin:40px;
+    margin-top: 0%;
+    padding:8px;
+    border-top:8px solid rgb(112, 108, 108);
+    border-bottom:8px solid rgb(112, 108, 108);
+    border-right:8px solid rgb(112, 108, 108);
+    border-left:8px solid rgb(112, 108, 108);
+    background-color:rgb(212, 211, 211); 
+}
+
+.aboutme{
+    font-style: bold;
+    background-color:  rgb(243, 161, 67); 
+    display: block;
+   
 }
 
 h1{
     font-size: 4em;
-    margin: 0;
-
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(243, 161, 67);
+    margin-top: .7em;
+    margin-left: 1.8em;
+    /*border: 5px solid black;*/
+    background: rgb(112, 108, 108);
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    padding: .2em;
+    margin-bottom: .1em;
+    -webkit-text-stroke: 2px black;
 }
+
+.slap{
+    font-size: 1.2em;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: .1em;
+    background-color:  rgb(243, 161, 67); 
+}
+
+.story{
+    font-style: bold;
+    font-size: 1.3em;
+    text-align: center;
+    margin: .1em;
+}
+
+time{
+    font-size: 1em;
+    font-style: bold;
+    text-align: center;
+}
+
 
 p{
-    line-height: 1.6em;
-    color: darkblue;
-
-
-}
-
-#blog{
-    border-top: 1px dotted darkblue;
-
+    color: rgb(0, 0, 0);
+    text-align: left;
+    line-height: .7cm;
 }
 
 .blog-post{
-    border-bottom:1px dotted darkblue;
+    border-bottom:1px dotted rgb(0, 0, 0);
 
 }
 
@@ -39,7 +78,10 @@ p{
 }
 
 h2{
-    color: black;
+    color: rgb(243, 161, 67);
+    font-size: 2em;
+    background: rgb(112, 108, 108);
+    margin:.1em
 }
 
 
@@ -49,44 +91,43 @@ label{
     align-items: center;
 }
 
-table{
-    color: black;
-    align-content: center;
-    border-collapse: collapse;
-    width: 50%;
-}
-
-td{
-    text-align: center;
-}
 
 section{
     display: flex;
 }
 
 article{
-    padding:10px;
+    padding:5px;
     margin:10px;
 }
 
-.img-container{
-    float: left;
-    text-align: center;
-    font-size: smaller;
-    padding: .05em;
-    margin: .05em;
+header img{
+    display: inline-block;
+    margin-top: 2.1em;
+    margin-left: .9em;
+    padding: .2em;
+}
+
+
+.img-container2{
+   /* padding: 1em;
     
+    margin: 1em;*/
+    float: left;
+   
 }
 
 .sticky{
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    border-style: solid;
+    background-color: rgb(253, 253, 253);
 }
 
 
 
-@media (max-width: 400px) {
+@media (min-width: 400px) {
     main {
         margin: 0 auto;
     }
@@ -99,7 +140,7 @@ article{
 
 @media (min-width: 400px ) {
     .para {
-        text-align: center;
+        text-align: right;
         
     }
 
@@ -109,10 +150,11 @@ article{
 
     ul {
         text-align: center;
-        
+        list-style-type: none;      
     }
 
     .blog-post {
         margin: 5;
     }
 }
+
