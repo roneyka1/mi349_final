@@ -115,6 +115,8 @@ header img{
     margin-top: 1.9em;
     margin-left: .9em;
     padding: .2em;
+    width: 130; 
+    height: 130;
 }
 
 
@@ -146,49 +148,36 @@ time{
     section{
         display:block;
     }
+
+    h1{
+        font-size: 2em;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: rgb(243, 161, 67);
+        margin-top: 1em;
+        margin-left: 2.5em;
+        /*border: 5px solid black;*/
+        background: rgb(112, 108, 108);
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        padding: .2em;
+        margin-bottom: .1em;
+        -webkit-text-stroke: 2px black;
+    }
+
+    header img{
+        display: inline-block;
+        margin-top: 1.9em;
+        margin-left: .9em;
+        padding: .2em;
+        width: 20%;
+        height: 20%;
+    }
 }
 
 
 
 
-/*
-    .para {
-        text-align: right;
-        
-    }
-
-    h1, h2 {
-        text-align: center;
-    }
-
-    ul {
-        text-align: center;
-        list-style-type: none;      
-    }
-
-    .blog-post {
-        margin: 5;
-    }
-
-    section{
-        display: flex;
-    }
-
-}
-
-
-@media (min-width: 100px) {
-    main {
-        margin: 0 auto;
-    }
-    img.img-container {
-        width: 100%;
-
-    }
-
- 
-
-}*/
 
 
 
